@@ -4,9 +4,9 @@
  CLASS: ICS3U1-03
  DATE: APRIL 3, 2014
  DESCRIPTION: USER SELECTS ONE SHAPE OUT OF FIVE, ENTERS ITS DIMENSIONS AND THE PROGRAM WILL PRINT OUT THE SHAPE.
-              AFTER DRAWING, PROGRAM WILL ASK IF THE USER WISHES TO REPEAT THE PROGRAM.
-              WHEN USER ENTERS A NEGATIVE ANSWER ('n' OR 'N'), PROGRAM WILL TERMINATE AND PRINT OUT THE AMOUNT
-              OF TIMES EACH SHAPE WAS SELECTED AND DRAWN
+ AFTER DRAWING, PROGRAM WILL ASK IF THE USER WISHES TO REPEAT THE PROGRAM.
+ WHEN USER ENTERS A NEGATIVE ANSWER ('n' OR 'N'), PROGRAM WILL TERMINATE AND PRINT OUT THE AMOUNT
+ OF TIMES EACH SHAPE WAS SELECTED AND DRAWN
  */
 
 import java.util.*;
@@ -123,7 +123,7 @@ public class Shape{
             height = input.nextInt();
           }
           System.out.println("\nHere is the left slant right angle triangle: ");
-          int i, j, k;
+          int i, j, k; //VARIABLES FOR BOTH THIS TRIANGLE AND ISOSCELES TRIANGLE
           for (i = height; i > 0; i = i - 1){
             for (j = 0; j < i; j = j + 1){
               System.out.print(" ");
