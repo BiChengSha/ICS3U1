@@ -1,5 +1,5 @@
-TO RUN:
-1. Compile all .java files
+TO RUN: <br/>
+1. Compile all .java files <br/>
 2. Run Game2048GUI.java ONLY. Game2048GUI.java calls upon the 2 other .java files
 
 TO EDIT GAME SETTINGS:
